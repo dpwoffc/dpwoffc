@@ -49,19 +49,27 @@ I enjoy creating:
 
 ---
 
-## 📌 Featured Projects
+## ✍️ Writing & Publications
 
-You can check my repositories for:
-- Automation tools
-- Backend services
-- Bot systems
-- Experimental utilities
+I also share technical insights, experiments, and development experiences on:
+
+- 📝 Blogger: https://dpwoffc.blogspot.com
+- 📚 Medium: https://medium.com/@dpwoffc
+- 📰 Kompasiana: https://www.kompasiana.com/dwiputrawibowo9306
 
 ---
 
-## 📫 Contact
+## 📫 Contact & Social Media
 
 - GitHub: https://github.com/dpwoffc
+- WhatsApp: https://wa.me/6285786335575
+- Telegram: https://t.me/@dpwoffc
+
+---
+
+## 📢 Telegram Channels
+
+- Main Channel: https://t.me/@DPWOFFC_CHANNELS
 
 ---
 
