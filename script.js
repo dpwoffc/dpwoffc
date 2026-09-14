@@ -1,3 +1,28 @@
+const themeToggle = document.querySelector(".theme-toggle");
+const themeIcon = document.querySelector(".theme-icon");
+
+const savedTheme = localStorage.getItem("dpwoffc-theme");
+const preferredTheme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+const initialTheme = savedTheme || preferredTheme;
+
+document.documentElement.dataset.theme = initialTheme;
+
+const updateThemeButton = () => {
+  const light = document.documentElement.dataset.theme === "light";
+  if (themeIcon) themeIcon.textContent = light ? "☾" : "☼";
+  themeToggle?.setAttribute("aria-label", light ? "Aktifkan tema gelap" : "Aktifkan tema terang");
+  themeToggle?.setAttribute("title", light ? "Tema gelap" : "Tema terang");
+};
+
+updateThemeButton();
+
+themeToggle?.addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem("dpwoffc-theme", next);
+  updateThemeButton();
+});
+
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
