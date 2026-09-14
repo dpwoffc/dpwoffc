@@ -286,3 +286,425 @@ html[data-theme="light"] .theme-toggle {
     margin-right: 8px;
   }
 }
+
+
+/* Mobile-first refinements */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: min(100% - 28px, var(--max));
+  }
+
+  .site-header {
+    background: rgba(7, 11, 18, .86);
+  }
+
+  html[data-theme="light"] .site-header {
+    background: rgba(244, 247, 251, .88);
+  }
+
+  .nav {
+    height: 64px;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .brand-mark {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+  }
+
+  .theme-toggle {
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+  }
+
+  .nav-links {
+    top: 68px;
+    left: 10px;
+    right: 10px;
+    padding: 6px;
+    border-radius: 15px;
+    box-shadow: 0 18px 50px rgba(0,0,0,.25);
+  }
+
+  .nav-links a {
+    padding: 13px 14px;
+    border-radius: 10px;
+  }
+
+  .nav-links a:active {
+    background: rgba(255,255,255,.06);
+  }
+
+  .hero {
+    padding-top: 108px;
+    padding-bottom: 58px;
+    gap: 44px;
+  }
+
+  .eyebrow {
+    font-size: 9px;
+    padding: 7px 10px;
+  }
+
+  .hero-kicker {
+    margin-top: 24px;
+    font-size: 10px;
+  }
+
+  h1 {
+    margin-top: 5px;
+    font-size: clamp(52px, 17vw, 76px);
+    line-height: .9;
+    letter-spacing: -.075em;
+  }
+
+  .hero-description {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+    padding: 11px 12px;
+    font-size: 12px;
+  }
+
+  .quick-stats {
+    gap: 0;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+
+  .quick-stats strong {
+    font-size: 11px;
+  }
+
+  .quick-stats span {
+    font-size: 9px;
+  }
+
+  .hero-card {
+    width: min(310px, 88vw);
+    border-radius: 27px;
+  }
+
+  .profile-ring {
+    width: 125px;
+    height: 125px;
+  }
+
+  .profile-avatar {
+    font-size: 32px;
+  }
+
+  .hero-card-name {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .hero-card-line {
+    margin: 20px 0 14px;
+  }
+
+  .hero-card-meta {
+    font-size: 10px;
+  }
+
+  .floating-chip {
+    font-size: 8px;
+    padding: 7px 9px;
+  }
+
+  .marquee {
+    gap: 23px;
+    padding: 14px 0;
+    font-size: 9px;
+  }
+
+  .section {
+    padding-top: 82px;
+  }
+
+  .section-heading {
+    margin-bottom: 34px;
+  }
+
+  .section-heading.split {
+    gap: 14px;
+  }
+
+  .section-label {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: clamp(39px, 12vw, 58px);
+    line-height: .94;
+  }
+
+  .section-note {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .about-copy {
+    padding: 23px;
+    border-radius: 19px;
+  }
+
+  .about-copy .lead {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .about-copy p {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .about-facts {
+    gap: 0;
+    margin-top: 25px;
+  }
+
+  .about-facts div {
+    padding: 11px 0;
+  }
+
+  .about-facts span {
+    font-size: 8px;
+  }
+
+  .about-facts strong {
+    font-size: 11px;
+  }
+
+  .timeline {
+    padding: 8px 2px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 15px 1fr;
+    gap: 13px;
+    padding-bottom: 27px;
+  }
+
+  .timeline-dot {
+    width: 11px;
+    height: 11px;
+  }
+
+  .timeline-item:not(:last-child):after {
+    left: 5px;
+    top: 25px;
+  }
+
+  .timeline h3 {
+    font-size: 15px;
+  }
+
+  .timeline p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .timeline small {
+    font-size: 8px;
+  }
+
+  .projects-grid {
+    gap: 11px;
+  }
+
+  .project-card {
+    min-height: 0;
+    padding: 21px;
+    border-radius: 19px;
+  }
+
+  .project-top {
+    align-items: center;
+  }
+
+  .project-number {
+    font-size: 10px;
+  }
+
+  .project-type {
+    font-size: 8px;
+  }
+
+  .project-icon {
+    width: 45px;
+    height: 45px;
+    margin-top: 38px;
+    border-radius: 12px;
+    font-size: 17px;
+  }
+
+  .project-card h3 {
+    margin-top: 14px;
+    font-size: 21px;
+  }
+
+  .project-card p {
+    font-size: 11px;
+    line-height: 1.65;
+  }
+
+  .tags {
+    gap: 5px;
+    margin-top: 17px;
+  }
+
+  .tags span {
+    padding: 4px 7px;
+    font-size: 8px;
+  }
+
+  .achievement {
+    grid-template-columns: 54px 1fr 15px;
+    gap: 10px;
+    padding: 20px 2px;
+  }
+
+  .achievement:hover {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .achievement-year {
+    font-size: 8px;
+  }
+
+  .achievement h3 {
+    font-size: 14px;
+  }
+
+  .achievement p {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .achievement-arrow {
+    font-size: 16px;
+  }
+
+  .skills {
+    gap: 6px;
+  }
+
+  .skills span {
+    padding: 7px 9px;
+    font-size: 9px;
+  }
+
+  .contact-section {
+    margin-top: 82px;
+    padding: 76px 0;
+  }
+
+  .contact-inner h2 {
+    font-size: clamp(48px, 15vw, 72px);
+  }
+
+  .contact-inner > p:not(.section-label) {
+    font-size: 12px;
+    line-height: 1.65;
+    margin: 19px auto 24px;
+    max-width: 300px;
+  }
+
+  .contact-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7px;
+    max-width: 300px;
+    margin-inline: auto;
+  }
+
+  .contact-links a {
+    width: 100%;
+    padding: 11px 13px;
+    font-size: 11px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer {
+    padding: 24px 0 30px;
+    gap: 5px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: calc(100% - 22px);
+  }
+
+  .hero {
+    padding-top: 100px;
+  }
+
+  h1 {
+    font-size: 51px;
+  }
+
+  .hero-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-stats {
+    flex-wrap: wrap;
+    gap: 13px 24px;
+  }
+
+  .hero-card {
+    width: 285px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 125px;
+  }
+
+  .hero-card {
+    width: 350px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
