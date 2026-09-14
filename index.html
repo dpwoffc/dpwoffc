@@ -2,30 +2,116 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>Dwi Putra Wibowo (@dpwoffc) — Developer & IT Enthusiast</title>
+
+  <meta
+    name="description"
+    content="Portfolio Dwi Putra Wibowo (@dpwoffc), developer dan IT enthusiast dari Klaten, Indonesia. Web development, backend, networking, cybersecurity, dan berbagai project teknologi."
+  >
+
+  <meta name="author" content="Dwi Putra Wibowo">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#070b12">
-  <meta name="description" content="Portfolio pribadi Dwi Putra Wibowo — dpwoffc. Developer, builder, dan IT enthusiast dari Klaten.">
-  <meta property="og:title" content="dpwoffc — Dwi Putra Wibowo">
-  <meta property="og:description" content="Developer, builder, dan IT enthusiast.">
+  <meta name="color-scheme" content="dark light">
+
+  <link rel="canonical" href="https://dpwoffc.my.id/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <title>dpwoffc — Dwi Putra Wibowo</title>
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="dpwoffc">
+  <meta property="og:title" content="Dwi Putra Wibowo (@dpwoffc)">
+  <meta
+    property="og:description"
+    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia."
+  >
+  <meta property="og:url" content="https://dpwoffc.my.id/">
+  <meta property="og:image" content="https://dpwoffc.my.id/assets/og-image.svg">
+  <meta property="og:image:alt" content="dpwoffc — Dwi Putra Wibowo">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dwi Putra Wibowo (@dpwoffc)">
+  <meta
+    name="twitter:description"
+    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia."
+  >
+  <meta name="twitter:image" content="https://dpwoffc.my.id/assets/og-image.svg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://dpwoffc.my.id/#person",
+        "name": "Dwi Putra Wibowo",
+        "alternateName": "dpwoffc",
+        "url": "https://dpwoffc.my.id/",
+        "jobTitle": "Developer & IT Enthusiast",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Klaten",
+          "addressCountry": "ID"
+        },
+        "sameAs": [
+          "https://github.com/dpwoffc"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dpwoffc.my.id/#website",
+        "url": "https://dpwoffc.my.id/",
+        "name": "dpwoffc",
+        "description": "Portfolio Dwi Putra Wibowo",
+        "publisher": {
+          "@id": "https://dpwoffc.my.id/#person"
+        },
+        "inLanguage": "id-ID"
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <div class="bg-grid"></div>
   <div class="orb orb-one"></div>
   <div class="orb orb-two"></div>
 
-  <header class="site-header">
+  <header class="site-header" aria-label="Navigasi utama">
     <nav class="nav container">
+
       <a class="brand" href="#home" aria-label="dpwoffc home">
         <span class="brand-mark">d</span>
         <span>dpwoffc</span>
       </a>
 
-      <button class="theme-toggle" type="button" aria-label="Ganti tema" title="Ganti tema"><span class="theme-icon">☼</span></button>
-      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
-        <span></span><span></span>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Ganti tema"
+        title="Ganti tema"
+      >
+        <span class="theme-icon">☼</span>
+      </button>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Buka menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
       </button>
 
       <div class="nav-links">
@@ -35,205 +121,571 @@
         <a href="#achievements">Achievements</a>
         <a href="#contact">Contact</a>
       </div>
+
     </nav>
   </header>
 
   <main id="home">
+
+    <!-- HERO -->
     <section class="hero container">
+
       <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="status-dot"></span> Available to build things</div>
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          Available to build things
+        </div>
+
         <p class="hero-kicker">HELLO, I'M</p>
-        <h1>Dwi Putra<br><span>Wibowo.</span></h1>
+
+        <h1>
+          Dwi Putra<br>
+          <span>Wibowo.</span>
+        </h1>
+
         <p class="hero-description">
           Developer, builder, dan IT enthusiast yang suka mengubah ide menjadi
           aplikasi, tools, dan sistem yang benar-benar bisa dipakai.
         </p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Lihat karya <span>↗</span></a>
-          <a class="button button-ghost" href="#contact">Hubungi saya</a>
+          <a
+            class="button button-primary"
+            href="#projects"
+            aria-label="Lihat project dan karya"
+          >
+            Lihat karya <span>↗</span>
+          </a>
+
+          <a
+            class="button button-ghost"
+            href="#contact"
+            aria-label="Hubungi Dwi Putra Wibowo"
+          >
+            Hubungi saya
+          </a>
         </div>
 
         <div class="quick-stats">
-          <div><strong>dpwoffc</strong><span>identity</span></div>
-          <div><strong>ITCSNEKA</strong><span>founder</span></div>
-          <div><strong>Web · IT</strong><span>focus</span></div>
+
+          <div>
+            <strong>dpwoffc</strong>
+            <span>identity</span>
+          </div>
+
+          <div>
+            <strong>ITCSNEKA</strong>
+            <span>founder</span>
+          </div>
+
+          <div>
+            <strong>Web · IT</strong>
+            <span>focus</span>
+          </div>
+
         </div>
+
       </div>
 
       <div class="hero-card-wrap reveal">
-        <div class="hero-card">
+
+        <div
+          class="hero-card"
+          aria-label="Profil Dwi Putra Wibowo"
+        >
+
           <div class="card-glow"></div>
+
           <div class="profile-ring">
-            <div class="profile-avatar">DP</div>
+            <div
+              class="profile-avatar"
+              role="img"
+              aria-label="Inisial Dwi Putra Wibowo"
+            >
+              DP
+            </div>
           </div>
-          <div class="hero-card-name">Dwi Putra Wibowo</div>
-          <div class="hero-card-handle">@dpwoffc</div>
+
+          <div class="hero-card-name">
+            Dwi Putra Wibowo
+          </div>
+
+          <div class="hero-card-handle">
+            @dpwoffc
+          </div>
+
           <div class="hero-card-line"></div>
+
           <div class="hero-card-meta">
             <span>Klaten, Indonesia</span>
-            <span>SMK N 4 Klaten</span>
+            <span>SMK N 4 Klaten · TJKT</span>
           </div>
-          <div class="floating-chip chip-top">WEB</div>
-          <div class="floating-chip chip-bottom">TJKT</div>
+
+          <div class="floating-chip chip-top">
+            WEB
+          </div>
+
+          <div class="floating-chip chip-bottom">
+            TJKT
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="marquee-section">
+
+    <!-- MARQUEE -->
+    <section class="marquee-section" aria-label="Technology focus">
+
       <div class="marquee">
-        <span>WEB DEVELOPMENT</span><i>✦</i>
-        <span>BACKEND</span><i>✦</i>
-        <span>CYBER SECURITY</span><i>✦</i>
-        <span>NETWORKING</span><i>✦</i>
-        <span>FLUTTER</span><i>✦</i>
-        <span>WEB DEVELOPMENT</span><i>✦</i>
-        <span>BACKEND</span><i>✦</i>
+
+        <span>WEB DEVELOPMENT</span>
+        <i>✦</i>
+
+        <span>BACKEND</span>
+        <i>✦</i>
+
+        <span>CYBER SECURITY</span>
+        <i>✦</i>
+
+        <span>NETWORKING</span>
+        <i>✦</i>
+
+        <span>FLUTTER</span>
+        <i>✦</i>
+
+        <span>WEB DEVELOPMENT</span>
+        <i>✦</i>
+
+        <span>BACKEND</span>
+        <i>✦</i>
+
       </div>
+
     </section>
 
+
+    <!-- ABOUT -->
     <section id="about" class="section container">
+
       <div class="section-heading reveal">
-        <p class="section-label">01 / ABOUT</p>
-        <h2>Building things,<br><span>learning every day.</span></h2>
+
+        <p class="section-label">
+          01 / ABOUT
+        </p>
+
+        <h2>
+          Building things,<br>
+          <span>learning every day.</span>
+        </h2>
+
       </div>
+
 
       <div class="about-grid">
+
         <div class="about-copy glass reveal">
+
           <p class="lead">
-            Saya <strong>Dwi Putra Wibowo</strong>, dikenal sebagai <strong>dpwoffc</strong>.
-            Saya berfokus pada dunia teknologi, terutama web development, backend,
-            networking, dan eksplorasi cybersecurity.
+            Saya <strong>Dwi Putra Wibowo</strong>, dikenal sebagai
+            <strong>dpwoffc</strong>.
+            Saya berfokus pada dunia teknologi, terutama web development,
+            backend, networking, dan eksplorasi cybersecurity.
           </p>
+
           <p>
-            Saya menikmati proses dari nol: merancang ide, menulis kode, menghubungkan
-            sistem, menemukan bug, lalu membuatnya bekerja lebih baik. Beberapa project
-            saya berkembang menjadi tools dan ekosistem yang saya gunakan sendiri maupun
-            saya bangun bersama komunitas.
+            Saya menikmati proses dari nol: merancang ide, menulis kode,
+            menghubungkan sistem, menemukan bug, lalu membuatnya bekerja
+            lebih baik.
           </p>
+
           <div class="about-facts">
-            <div><span>Education</span><strong>SMK N 4 Klaten · TJKT</strong></div>
-            <div><span>Based in</span><strong>Klaten, Indonesia</strong></div>
-            <div><span>Identity</span><strong>dpwoffc</strong></div>
+
+            <div>
+              <span>Education</span>
+              <strong>SMK N 4 Klaten · TJKT</strong>
+            </div>
+
+            <div>
+              <span>Based in</span>
+              <strong>Klaten, Indonesia</strong>
+            </div>
+
+            <div>
+              <span>Identity</span>
+              <strong>dpwoffc</strong>
+            </div>
+
           </div>
+
         </div>
+
 
         <div class="timeline reveal">
+
           <div class="timeline-item">
+
             <span class="timeline-dot"></span>
-            <div><small>NOW</small><h3>Building & exploring</h3><p>Developing personal projects, tools, and the ITCSNEKA ecosystem.</p></div>
+
+            <div>
+              <small>NOW</small>
+
+              <h3>
+                Building & exploring
+              </h3>
+
+              <p>
+                Developing personal projects, tools, and the ITCSNEKA ecosystem.
+              </p>
+            </div>
+
           </div>
+
+
           <div class="timeline-item">
+
             <span class="timeline-dot"></span>
-            <div><small>2026</small><h3>LKS Web Technology</h3><p>Juara 2 pada LKS Web Tech 2026.</p></div>
+
+            <div>
+              <small>2026</small>
+
+              <h3>
+                LKS Web Technology
+              </h3>
+
+              <p>
+                Juara 2 pada LKS Web Tech 2026.
+              </p>
+            </div>
+
           </div>
+
+
           <div class="timeline-item">
+
             <span class="timeline-dot"></span>
-            <div><small>2025</small><h3>Cyber Jateng</h3><p>Berpartisipasi dan meraih pencapaian pada Cyber Jateng 2025.</p></div>
+
+            <div>
+              <small>2025</small>
+
+              <h3>
+                Cyber Jateng
+              </h3>
+
+              <p>
+                Berpartisipasi pada Cyber Jateng 2025.
+              </p>
+            </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- PROJECTS -->
     <section id="projects" class="section container">
+
       <div class="section-heading split reveal">
+
         <div>
-          <p class="section-label">02 / PROJECTS</p>
-          <h2>Things I've<br><span>built.</span></h2>
+
+          <p class="section-label">
+            02 / PROJECTS
+          </p>
+
+          <h2>
+            Things I've<br>
+            <span>built.</span>
+          </h2>
+
         </div>
-        <p class="section-note">Beberapa project dan ekosistem yang merepresentasikan apa yang saya suka bangun.</p>
+
+        <p class="section-note">
+          Beberapa project dan ekosistem yang merepresentasikan
+          apa yang saya suka bangun.
+        </p>
+
       </div>
+
 
       <div class="projects-grid">
+
         <article class="project-card project-featured reveal">
-          <div class="project-top"><span class="project-number">01</span><span class="project-type">ECOSYSTEM</span></div>
+
+          <div class="project-top">
+            <span class="project-number">01</span>
+            <span class="project-type">ECOSYSTEM</span>
+          </div>
+
           <div class="project-icon">I</div>
+
           <h3>ITCSNEKA</h3>
-          <p>Ekosistem teknologi dengan fokus programming, cybersecurity, dan ethical hacking.</p>
-          <div class="tags"><span>Next.js</span><span>Tailwind</span><span>Web</span></div>
+
+          <p>
+            Ekosistem teknologi dengan fokus programming,
+            cybersecurity, dan ethical hacking.
+          </p>
+
+          <div class="tags">
+            <span>Next.js</span>
+            <span>Tailwind</span>
+            <span>Web</span>
+          </div>
+
         </article>
 
+
         <article class="project-card reveal">
-          <div class="project-top"><span class="project-number">02</span><span class="project-type">PLATFORM</span></div>
+
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <span class="project-type">PLATFORM</span>
+          </div>
+
           <div class="project-icon">H</div>
+
           <h3>Hydro Ecosystem</h3>
-          <p>Berbagai tools dan layanan digital yang dibangun dan dikembangkan secara mandiri.</p>
-          <div class="tags"><span>Node.js</span><span>Express</span><span>API</span></div>
+
+          <p>
+            Berbagai tools dan layanan digital yang dibangun
+            dan dikembangkan secara mandiri.
+          </p>
+
+          <div class="tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>API</span>
+          </div>
+
         </article>
 
+
         <article class="project-card reveal">
-          <div class="project-top"><span class="project-number">03</span><span class="project-type">APP</span></div>
+
+          <div class="project-top">
+            <span class="project-number">03</span>
+            <span class="project-type">APP</span>
+          </div>
+
           <div class="project-icon">D</div>
+
           <h3>dpwoffc Apps</h3>
-          <p>Aplikasi dashboard dan automation tools dengan Flutter dan backend API.</p>
-          <div class="tags"><span>Flutter</span><span>Dart</span><span>REST API</span></div>
+
+          <p>
+            Aplikasi dashboard dan automation tools
+            dengan Flutter dan backend API.
+          </p>
+
+          <div class="tags">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>REST API</span>
+          </div>
+
         </article>
 
+
         <article class="project-card reveal">
-          <div class="project-top"><span class="project-number">04</span><span class="project-type">BACKEND</span></div>
+
+          <div class="project-top">
+            <span class="project-number">04</span>
+            <span class="project-type">BACKEND</span>
+          </div>
+
           <div class="project-icon">W</div>
+
           <h3>WhatsApp Systems</h3>
-          <p>Eksperimen dan pengembangan sistem WhatsApp automation berbasis Node.js.</p>
-          <div class="tags"><span>Node.js</span><span>Baileys</span><span>Automation</span></div>
+
+          <p>
+            Eksperimen dan pengembangan sistem WhatsApp
+            automation berbasis Node.js.
+          </p>
+
+          <div class="tags">
+            <span>Node.js</span>
+            <span>Baileys</span>
+            <span>Automation</span>
+          </div>
+
         </article>
+
       </div>
+
     </section>
 
+
+    <!-- ACHIEVEMENTS -->
     <section id="achievements" class="section container">
+
       <div class="section-heading reveal">
-        <p class="section-label">03 / ACHIEVEMENTS</p>
-        <h2>Proof of<br><span>the journey.</span></h2>
+
+        <p class="section-label">
+          03 / ACHIEVEMENTS
+        </p>
+
+        <h2>
+          Proof of<br>
+          <span>the journey.</span>
+        </h2>
+
       </div>
+
 
       <div class="achievement-list">
+
         <div class="achievement reveal">
-          <div class="achievement-year">2026</div>
-          <div><h3>LKS Web Technology</h3><p>Juara 2 · Web Technology</p></div>
+
+          <div class="achievement-year">
+            2026
+          </div>
+
+          <div>
+            <h3>LKS Web Technology</h3>
+            <p>Juara 2 · Web Technology</p>
+          </div>
+
           <span class="achievement-arrow">↗</span>
+
         </div>
+
+
         <div class="achievement reveal">
-          <div class="achievement-year">2025</div>
-          <div><h3>Cyber Jateng</h3><p>Participant / achievement in cybersecurity competition</p></div>
+
+          <div class="achievement-year">
+            2025
+          </div>
+
+          <div>
+            <h3>Cyber Jateng</h3>
+            <p>Participant / achievement in cybersecurity competition</p>
+          </div>
+
           <span class="achievement-arrow">↗</span>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- SKILLS -->
     <section class="section container skills-section">
+
       <div class="section-heading split reveal">
+
         <div>
-          <p class="section-label">04 / SKILLS</p>
-          <h2>Tools I<br><span>work with.</span></h2>
+
+          <p class="section-label">
+            04 / SKILLS
+          </p>
+
+          <h2>
+            Tools I<br>
+            <span>work with.</span>
+          </h2>
+
         </div>
+
       </div>
+
 
       <div class="skills reveal">
-        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Next.js</span>
-        <span>React</span><span>Node.js</span><span>Express</span><span>Flutter</span>
-        <span>Dart</span><span>REST API</span><span>Git</span><span>Linux</span>
-        <span>Networking</span><span>Cybersecurity</span><span>Cloudflare</span>
+
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Next.js</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>Flutter</span>
+        <span>Dart</span>
+        <span>REST API</span>
+        <span>Git</span>
+        <span>Linux</span>
+        <span>Networking</span>
+        <span>Cybersecurity</span>
+        <span>Cloudflare</span>
+
       </div>
+
     </section>
 
+
+    <!-- CONTACT -->
     <section id="contact" class="contact-section">
+
       <div class="container contact-inner reveal">
-        <p class="section-label">05 / CONTACT</p>
-        <h2>Have an idea?<br><span>Let's build it.</span></h2>
-        <p>Temukan saya lewat profile dan channel yang tersedia.</p>
+
+        <p class="section-label">
+          05 / CONTACT
+        </p>
+
+        <h2>
+          Have an idea?<br>
+          <span>Let's build it.</span>
+        </h2>
+
+        <p>
+          Temukan saya lewat profile dan channel yang tersedia.
+        </p>
+
         <div class="contact-links">
-          <a href="https://github.com/dpwoffc" target="_blank" rel="noopener">GitHub <span>↗</span></a>
-          <a href="https://dpwoffc.my.id" target="_blank" rel="noopener">Website <span>↗</span></a>
-          <a href="https://t.me/dpwoffc" target="_blank" rel="noopener">Telegram <span>↗</span></a>
+
+          <a
+            href="https://github.com/dpwoffc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+            <span>↗</span>
+          </a>
+
+          <a href="https://dpwoffc.my.id">
+            Website
+            <span>↗</span>
+          </a>
+
+          <a
+            href="https://t.me/dpwoffc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram
+            <span>↗</span>
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
   <footer class="footer container">
-    <span>© <span id="year"></span> dpwoffc</span>
-    <span>Built with HTML · CSS · JS</span>
+
+    <span>
+      © <span id="year"></span> dpwoffc
+    </span>
+
+    <span>
+      Built with HTML · CSS · JS
+    </span>
+
   </footer>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>

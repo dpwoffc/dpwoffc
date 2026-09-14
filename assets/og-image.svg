@@ -1,0 +1,44 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+width="1200"
+height="630"
+viewBox="0 0 1200 630">
+
+<rect width="1200" height="630" fill="#070b12"/>
+
+<circle cx="1000" cy="80" r="250"
+fill="#1677d2" opacity=".18"/>
+
+<circle cx="120" cy="560" r="220"
+fill="#1d4ed8" opacity=".12"/>
+
+<text x="90" y="115"
+font-family="Arial,sans-serif"
+font-size="30"
+font-weight="700"
+fill="#7ac1ff">
+dpwoffc
+</text>
+
+<text x="90" y="300"
+font-family="Arial,sans-serif"
+font-size="78"
+font-weight="800"
+fill="#f3f7ff">
+Dwi Putra Wibowo
+</text>
+
+<text x="90" y="365"
+font-family="Arial,sans-serif"
+font-size="32"
+fill="#8c98aa">
+Developer · Builder · IT Enthusiast
+</text>
+
+<text x="90" y="505"
+font-family="Arial,sans-serif"
+font-size="24"
+fill="#657286">
+dpwoffc.my.id
+</text>
+
+</svg>
