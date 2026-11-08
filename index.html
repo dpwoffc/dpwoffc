@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-  <title>Dwi Putra Wibowo (@dpwoffc) — Developer & IT Enthusiast</title>
-
+  <!--
+    OPTIMASI SEO:
+    - Title tag: Fokus kata kunci di awal, nama brand di akhir, panjang < 60 karakter.
+    - Meta description: Panjang 150-160 karakter, mengandung kata kunci dan CTA.
+  -->
+  <title>Developer & IT Enthusiast | Dwi Putra Wibowo (dpwoffc)</title>
   <meta
     name="description"
-    content="Portfolio Dwi Putra Wibowo (@dpwoffc), developer dan IT enthusiast dari Klaten, Indonesia. Web development, backend, networking, cybersecurity, dan berbagai project teknologi."
+    content="Portfolio Dwi Putra Wibowo (@dpwoffc), developer & IT enthusiast dari Klaten. Spesialis web development, backend, networking, dan cybersecurity. Lihat project & hubungi saya."
   >
 
   <meta name="author" content="Dwi Putra Wibowo">
@@ -24,10 +28,10 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="id_ID">
   <meta property="og:site_name" content="dpwoffc">
-  <meta property="og:title" content="Dwi Putra Wibowo (@dpwoffc)">
+  <meta property="og:title" content="Developer & IT Enthusiast | Dwi Putra Wibowo (dpwoffc)">
   <meta
     property="og:description"
-    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia."
+    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia. Spesialis web development, backend, networking, dan cybersecurity."
   >
   <meta property="og:url" content="https://dpwoffc.my.id/">
   <meta property="og:image" content="https://dpwoffc.my.id/assets/og-image.svg">
@@ -35,14 +39,19 @@
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dwi Putra Wibowo (@dpwoffc)">
+  <meta name="twitter:title" content="Developer & IT Enthusiast | Dwi Putra Wibowo (dpwoffc)">
   <meta
     name="twitter:description"
-    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia."
+    content="Developer, builder, dan IT enthusiast dari Klaten, Indonesia. Spesialis web development, backend, networking, dan cybersecurity."
   >
   <meta name="twitter:image" content="https://dpwoffc.my.id/assets/og-image.svg">
 
-  <!-- Structured Data -->
+  <!--
+    STRUCTURED DATA (JSON-LD) YANG DIPERBARUI:
+    - Menambahkan entitas LocalBusiness untuk website bisnis.
+    - Menghubungkan Person (Anda) dengan bisnis tersebut.
+    - Memperkaya WebSite schema.
+  -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -61,18 +70,40 @@
         },
         "sameAs": [
           "https://github.com/dpwoffc"
-        ]
+        ],
+        "worksFor": {
+          "@id": "https://business.dpwoffc.my.id/#business"
+        }
       },
       {
         "@type": "WebSite",
         "@id": "https://dpwoffc.my.id/#website",
         "url": "https://dpwoffc.my.id/",
         "name": "dpwoffc",
-        "description": "Portfolio Dwi Putra Wibowo",
+        "description": "Portfolio Dwi Putra Wibowo — Developer & IT Enthusiast",
         "publisher": {
           "@id": "https://dpwoffc.my.id/#person"
         },
         "inLanguage": "id-ID"
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://business.dpwoffc.my.id/#business",
+        "name": "dpwoffc Business",
+        "url": "https://business.dpwoffc.my.id",
+        "description": "Layanan pengembangan web, backend, dan solusi IT dari dpwoffc.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Klaten",
+          "addressCountry": "ID"
+        },
+        "telephone": "+62-812-0000-0000",
+        "founder": {
+          "@id": "https://dpwoffc.my.id/#person"
+        },
+        "sameAs": [
+          "https://business.dpwoffc.my.id"
+        ]
       }
     ]
   }
@@ -120,6 +151,8 @@
         <a href="#projects">Projects</a>
         <a href="#achievements">Achievements</a>
         <a href="#contact">Contact</a>
+        <!-- Tautan ke website bisnis ditambahkan di navigasi -->
+        <a href="https://business.dpwoffc.my.id" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi website bisnis dpwoffc (tab baru)">Business ↗</a>
       </div>
 
     </nav>
@@ -139,9 +172,14 @@
 
         <p class="hero-kicker">HELLO, I'M</p>
 
+        <!--
+          OPTIMASI H1:
+          H1 tidak lagi hanya nama, tetapi ditambah konteks peran
+          agar lebih deskriptif dan kaya kata kunci.
+        -->
         <h1>
-          Dwi Putra<br>
-          <span>Wibowo.</span>
+          Dwi Putra Wibowo<br>
+          <span>Developer & IT Enthusiast</span>
         </h1>
 
         <p class="hero-description">
@@ -644,13 +682,25 @@
             href="https://github.com/dpwoffc"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Kunjungi profil GitHub dpwoffc (tab baru)"
           >
             GitHub
             <span>↗</span>
           </a>
 
-          <a href="https://dpwoffc.my.id">
+          <a href="https://dpwoffc.my.id" aria-label="Kunjungi website utama dpwoffc">
             Website
+            <span>↗</span>
+          </a>
+
+          <!-- Tautan ke website bisnis ditambahkan di sini -->
+          <a
+            href="https://business.dpwoffc.my.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Kunjungi website bisnis dpwoffc (tab baru)"
+          >
+            Business Website
             <span>↗</span>
           </a>
 
@@ -658,6 +708,7 @@
             href="https://t.me/dpwoffc"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Hubungi dpwoffc via Telegram (tab baru)"
           >
             Telegram
             <span>↗</span>
